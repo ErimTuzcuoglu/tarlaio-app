@@ -51,7 +51,7 @@ class GoogleMaps extends React.Component {
     render() {
 
         return (
-            <div id="map" style={{ width: '100%', height: '90%', marginTop: '3%' }}></div>
+            <div id="map" style={{ width: '100%', height: '90%', marginTop: '3%', minHeight:300, minWidth:300 }}></div>
         )
     }
 }
